@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "akc"
+version = "0.1.0"
+description = "Agentic Knowledge Compiler ingestion service"
+requires-python = ">=3.13"
+dependencies = [
+  "agentfs-sdk>=0.6.4",
+  "fastapi>=0.116.1",
+  "httpx>=0.28.1",
+  "openai-agents>=0.13.4",
+  "pypdf>=6.1.0",
+  "python-multipart>=0.0.20",
+  "rich>=14.1.0",
+  "uvicorn[standard]>=0.35.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

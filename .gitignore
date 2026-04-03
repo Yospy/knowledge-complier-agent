@@ -1,0 +1,23 @@
+/.env
+/.venv/
+/.agentfs/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+
+# Local sample data and private source documents
+/2026 Agentic Coding Trends Report.pdf
+/Yash Latest CV.pdf
+/HBu1t6Mb0AAxuiE.jpeg
+/HBuldGmbgAUf8-S.jpeg
